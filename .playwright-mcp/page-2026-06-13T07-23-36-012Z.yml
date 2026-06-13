@@ -1,0 +1,53 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - link "Gujarat Fable — home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e6]: ગ
+      - generic [ref=e7]: Gujarat Fable
+    - navigation [ref=e8]:
+      - link "← All places" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - 'button "Render quality: High. Click to change." [ref=e10] [cursor=pointer]': "Quality: High"
+  - status [ref=e12]:
+    - paragraph [ref=e17]: Summoning Mani Mandir…
+  - complementary "The fable of Mani Mandir" [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: Saurashtra · Morbi
+        - heading "Mani Mandir" [level=1] [ref=e22]
+        - paragraph [ref=e23]: The Temple Born of Love
+      - button "Collapse the fable panel" [ref=e24] [cursor=pointer]: Hide ✕
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: ✨ Orbit with soft lamps & drifting petals
+        - generic [ref=e28]: "Modelling: Medium"
+      - button "Narrate the fable" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: ▶
+        - text: Narrate the fable
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: Not every monument in Gujarat is ancient, and not every one is grief or conquest. Some are simply love, made large. In Morbi, beside a river, a ruler built a temple and named it for the one he could not bear to lose — Mani Mandir, the temple of Mani.
+        - paragraph [ref=e33]: "In the 1930s the Thakor Saheb of Morbi raised this temple-palace, and into it he set the gods of household devotion: Radha and Krishna, Lakshmi and Narayan, Shiva and Parvati — the divine couples, deities who are never worshipped alone. The choice is its own quiet poem. A man who built a monument to his beloved filled it with gods who come in pairs."
+        - paragraph [ref=e34]: The building wears its tenderness in stone. Pinnacles cluster like a crown; balconies and arches repeat in patient symmetry; every surface is worked with the carving that Gujarat’s craftsmen have practised for a thousand years, now turned to a thoroughly modern purpose. It has the scale of a palace and the heart of a shrine, and in the warm light of evening the carved facade seems almost to glow from within.
+        - paragraph [ref=e35]: The great earthquake of 2001 shook Morbi hard and left parts of Mani Mandir wounded; much of the interior has been closed since. Yet the silhouette endures — the pinnacles still climb, the arches still hold, and the love that raised them is still legible in every deliberate line.
+        - paragraph [ref=e36]: "This is the fable of the temple born of love: that devotion to the divine and devotion to a person are not so different after all — that a heart, given something it cannot keep, will sometimes answer by building something that will not fall, and writing a name across the sky in stone."
+      - generic [ref=e37]:
+        - heading "Key facts" [level=2] [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - term [ref=e41]: Built
+            - definition [ref=e42]: c. 1930s, by the rulers of Morbi state
+          - generic [ref=e43]:
+            - term [ref=e44]: Type
+            - definition [ref=e45]: Temple-palace complex
+          - generic [ref=e46]:
+            - term [ref=e47]: Deities
+            - definition [ref=e48]: Radha-Krishna, Lakshmi-Narayan, Shiva-Parvati
+          - generic [ref=e49]:
+            - term [ref=e50]: Style
+            - definition [ref=e51]: Ornate carved stone, clustered pinnacles
+          - generic [ref=e52]:
+            - term [ref=e53]: Setting
+            - definition [ref=e54]: Beside the Machhu river, near Rajkot
+          - generic [ref=e55]:
+            - term [ref=e56]: Note
+            - definition [ref=e57]: Damaged in the 2001 Gujarat earthquake

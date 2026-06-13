@@ -1,0 +1,59 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - link "Gujarat Fable — home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e6]: ગ
+      - generic [ref=e7]: Gujarat Fable
+    - navigation [ref=e8]:
+      - link "← All places" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - 'button "Render quality: High. Click to change." [ref=e10] [cursor=pointer]': "Quality: High"
+  - status [ref=e12]:
+    - paragraph [ref=e17]: Summoning Modhera Sun Temple…
+  - generic [ref=e18]:
+    - paragraph [ref=e19]: Move the sun
+    - slider "Sun position from sunrise to sunset" [ref=e20]: "0.3"
+    - generic [ref=e21]:
+      - button "Align to equinox" [ref=e22] [cursor=pointer]
+      - generic [ref=e23]: Sanctum in shadow
+  - complementary "The fable of Modhera Sun Temple" [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: North · Mehsana
+        - heading "Modhera Sun Temple" [level=1] [ref=e28]
+        - paragraph [ref=e29]: Where Mathematics Meets Divinity
+      - button "Collapse the fable panel" [ref=e30] [cursor=pointer]: Hide ✕
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: ✨ Sun-position slider — light the sanctum at equinox
+        - generic [ref=e34]: "Modelling: Medium"
+      - button "Narrate the fable" [ref=e35] [cursor=pointer]:
+        - generic [ref=e36]: ▶
+        - text: Narrate the fable
+      - generic [ref=e37]:
+        - paragraph [ref=e38]: The Solanki kings worshipped Surya, the sun, and so they built him a house that the sun itself could enter. At Modhera, on the banks of the Pushpavati, they raised a temple aligned not to the whims of fashion but to the geometry of the heavens — a building that is half prayer, half calculation.
+        - paragraph [ref=e39]: "Approach it from the east and you meet the water first: the Surya Kund, a great stepped tank descending in a perfect cascade of terraces, dotted with more than a hundred small shrines. Pilgrims once purified themselves here before climbing toward the temple, moving from water to fire, from the human to the divine."
+        - paragraph [ref=e40]: Beyond the tank stands the Sabha Mandap, the assembly hall, its fifty-two carved pillars counting out the weeks of the year. Every surface is worked — gods and dancers, elephants and lotus, the twelve Adityas marking the sun’s twelve moods across the months. Nothing here is merely decorative; the whole temple is a calendar you can walk through.
+        - paragraph [ref=e41]: And then the masterstroke. The architects set the inner sanctum so exactly that at the equinox the first light of dawn travels the length of the temple and strikes the spot where the sun god’s image once stood, crowning him in his own element. Mathematics and devotion meet in a single beam of light, repeated faithfully twice a year for nearly a thousand years.
+        - paragraph [ref=e42]: "Mahmud of Ghazni’s armies later defaced it, and the idol is long gone, but the alignment remains — indifferent to conquest, keyed only to the turning of the earth. This is the fable of Modhera: that the deepest faith is sometimes built with a surveyor’s precision, and that a people can pin their god to the sky so accurately that the sunrise itself becomes the act of worship."
+      - generic [ref=e43]:
+        - heading "Key facts" [level=2] [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - term [ref=e47]: Built
+            - definition [ref=e48]: c. 1026–27 CE, reign of Bhima I (Solanki)
+          - generic [ref=e49]:
+            - term [ref=e50]: Dedicated to
+            - definition [ref=e51]: Surya, the Sun God
+          - generic [ref=e52]:
+            - term [ref=e53]: Surya Kund
+            - definition [ref=e54]: Stepped tank with 100+ miniature shrines
+          - generic [ref=e55]:
+            - term [ref=e56]: Sabha Mandap
+            - definition [ref=e57]: Hall of 52 pillars (weeks of the year)
+          - generic [ref=e58]:
+            - term [ref=e59]: Alignment
+            - definition [ref=e60]: Equinox sun reaches the inner sanctum
+          - generic [ref=e61]:
+            - term [ref=e62]: Today
+            - definition [ref=e63]: Site of the annual Modhera Dance Festival

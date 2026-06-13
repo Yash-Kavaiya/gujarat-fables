@@ -1,0 +1,53 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - link "Gujarat Fable — home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e6]: ગ
+      - generic [ref=e7]: Gujarat Fable
+    - navigation [ref=e8]:
+      - link "← All places" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - 'button "Render quality: High. Click to change." [ref=e10] [cursor=pointer]': "Quality: High"
+  - status [ref=e12]:
+    - paragraph [ref=e17]: Summoning Statue of Unity…
+  - complementary "The fable of Statue of Unity" [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: Central · Narmada
+        - heading "Statue of Unity" [level=1] [ref=e22]
+        - paragraph [ref=e23]: The Iron Man Who United a Nation
+      - button "Collapse the fable panel" [ref=e24] [cursor=pointer]: Hide ✕
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: ✨ Slow heroic fly-around with scale reference
+        - generic [ref=e28]: "Modelling: Medium"
+      - button "Narrate the fable" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: ▶
+        - text: Narrate the fable
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: When the old empire dissolved, the land it left behind was not one country but five hundred and sixty-two — princely states, each with its own crown, its own pride, its own reasons to stand apart. Some say a nation is born in a single great war. This one was born in quiet rooms, over cups of tea, in the patient voice of a man they called the Iron Man.
+        - paragraph [ref=e33]: Sardar Vallabhbhai Patel was a farmer’s son from Gujarat who became the conscience of a young republic. He did not raise armies to unite the kingdoms; he raised arguments, appeals, and when needed, an unbending will. One by one the rajas signed away their thrones, and a map that had been a shattered mirror became, at last, a single reflecting whole.
+        - paragraph [ref=e34]: Generations later, Gujarat chose to remember him not with a plaque but with a giant. On a river island below the Sardar Sarovar Dam, engineers and sculptors raised a figure twice the height of any statue the world had ever built — one hundred and eighty-two metres of bronze and steel, a number chosen to echo the seats of the state assembly that first dreamed of unity.
+        - paragraph [ref=e35]: Stand at his feet and the Narmada spreads silver in every direction. The wind off the water moves the folds of his stone shawl. Look up and his gaze is fixed on the horizon, on the dam he believed could turn a dry country green, on the farms and the rivers and the people he spent his life refusing to let drift apart.
+        - paragraph [ref=e36]: The fable of the Statue of Unity is not really about a statue. It is about the strange, stubborn idea that a thousand differences can be held inside one outline — that a country, like a colossus, is built piece by patient piece, and stands only because someone decided it must.
+      - generic [ref=e37]:
+        - heading "Key facts" [level=2] [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - term [ref=e41]: Height
+            - definition [ref=e42]: 182 metres (597 ft) — world’s tallest statue
+          - generic [ref=e43]:
+            - term [ref=e44]: Dedicated to
+            - definition [ref=e45]: Sardar Vallabhbhai Patel
+          - generic [ref=e46]:
+            - term [ref=e47]: Inaugurated
+            - definition [ref=e48]: 31 October 2018
+          - generic [ref=e49]:
+            - term [ref=e50]: Material
+            - definition [ref=e51]: Bronze cladding over steel & concrete
+          - generic [ref=e52]:
+            - term [ref=e53]: Setting
+            - definition [ref=e54]: Sadhu Bet island, on the Narmada river
+          - generic [ref=e55]:
+            - term [ref=e56]: Viewing gallery
+            - definition [ref=e57]: At ~153 m, holds up to 200 visitors

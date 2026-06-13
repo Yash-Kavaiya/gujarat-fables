@@ -1,0 +1,57 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - link "Gujarat Fable — home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e6]: ગ
+      - generic [ref=e7]: Gujarat Fable
+    - navigation [ref=e8]:
+      - link "← All places" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - 'button "Render quality: High. Click to change." [ref=e10] [cursor=pointer]': "Quality: High"
+  - status [ref=e12]:
+    - paragraph [ref=e17]: Summoning Girnar Hill…
+  - generic [ref=e18]:
+    - paragraph [ref=e19]: Virtual climb
+    - slider "Climb progress up Girnar" [ref=e20]: "0"
+    - paragraph [ref=e21]: The foot of the mountain
+  - complementary "The fable of Girnar Hill" [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - paragraph [ref=e25]: Saurashtra · Junagadh
+        - heading "Girnar Hill" [level=1] [ref=e26]
+        - paragraph [ref=e27]: The Sacred Mountain
+      - button "Collapse the fable panel" [ref=e28] [cursor=pointer]: Hide ✕
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: ✨ Virtual climb — ascend to unlock the story
+        - generic [ref=e32]: "Modelling: High"
+      - button "Narrate the fable" [ref=e33] [cursor=pointer]:
+        - generic [ref=e34]: ▶
+        - text: Narrate the fable
+      - generic [ref=e35]:
+        - paragraph [ref=e36]: "They call it older than the Himalayas, and the geologists, for once, agree with the legend: Girnar is an ancient thing, a worn volcanic mountain rising abruptly from the plains of Saurashtra, sacred long before anyone wrote down why. To Jains and Hindus alike it is a mountain you do not merely visit. You climb it."
+        - paragraph [ref=e37]: The way up is some ten thousand steps, cut into the rock and worn smooth by centuries of bare feet. Pilgrims begin before dawn, when the stone is cool and the peaks are still wrapped in mist, and they climb together — the old leaning on the young, porters carrying those who cannot walk, everyone breathing the same thin prayer toward the same high silence.
+        - paragraph [ref=e38]: On the first great shoulder of the mountain stand the Jain temples, a marble city in the clouds. Chief among them is the shrine of Neminath, the twenty-second Tirthankara, who in tradition was kin to Krishna and who renounced the world here, on this very rock, turning back from his own wedding to seek something larger than a crown. Higher still waits the temple of Amba Mata, where newlyweds climb to ask a blessing, and higher again the peaks of Gorakhnath and Dattatreya, the loftiest points in all Gujarat.
+        - paragraph [ref=e39]: The climb is the point. Each landing earns a wider horizon; each temple is a station on a journey that is as much inward as upward. The body labours, the breath shortens, the plains fall away below — and somewhere in the burning of the legs the pilgrimage stops being about the temple at the top and becomes about the climbing itself.
+        - paragraph [ref=e40]: "This is the fable of the sacred mountain: that some truths cannot be delivered, only earned step by step; that Jain and Hindu, ancient and modern, the strong and the failing all ascend the same stairs toward the same sky — and that the mountain, indifferent and eternal, simply waits at the top for whoever is willing to come."
+      - generic [ref=e41]:
+        - heading "Key facts" [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - term [ref=e45]: Significance
+            - definition [ref=e46]: Major Jain & Hindu pilgrimage (mahatirtha)
+          - generic [ref=e47]:
+            - term [ref=e48]: The climb
+            - definition [ref=e49]: ~9,999 stone steps to the peaks
+          - generic [ref=e50]:
+            - term [ref=e51]: Neminath
+            - definition [ref=e52]: 22nd Jain Tirthankara, linked to Krishna
+          - generic [ref=e53]:
+            - term [ref=e54]: Peaks
+            - definition [ref=e55]: Highest range in Gujarat (~1,069 m)
+          - generic [ref=e56]:
+            - term [ref=e57]: Other shrines
+            - definition [ref=e58]: Amba Mata, Gorakhnath, Dattatreya
+          - generic [ref=e59]:
+            - term [ref=e60]: Nearby
+            - definition [ref=e61]: Ashokan rock edicts at the mountain’s foot

@@ -1,0 +1,131 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - link "Gujarat Fable — home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e6]: ગ
+      - generic [ref=e7]: Gujarat Fable
+    - navigation [ref=e8]:
+      - link "About" [ref=e9] [cursor=pointer]:
+        - /url: /about
+      - 'button "Render quality: High. Click to change." [ref=e10] [cursor=pointer]': "Quality: High"
+  - generic [ref=e15]:
+    - paragraph [ref=e16]: A 3D Journey Through Gujarat
+    - heading "Where every place is a living legend" [level=1] [ref=e17]
+    - paragraph [ref=e18]: Walk through the white desert of Kutch, descend the queen's inverted temple, and light the sanctum at Modhera — nine icons of Gujarat, told as fables and built in 3D.
+    - link "Explore the places ↓" [ref=e19] [cursor=pointer]:
+      - /url: "#gallery"
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - heading "The Curated Nine" [level=2] [ref=e22]
+      - paragraph [ref=e23]: Each place was chosen for its story and its silhouette — myth and history rendered as something you can move through.
+    - tablist "Filter places by region" [ref=e25]:
+      - tab "All9" [selected] [ref=e26] [cursor=pointer]
+      - tab "Central1" [ref=e27] [cursor=pointer]
+      - tab "North2" [ref=e28] [cursor=pointer]
+      - tab "Kutch2" [ref=e29] [cursor=pointer]
+      - tab "Saurashtra4" [ref=e30] [cursor=pointer]
+    - generic [ref=e31]:
+      - link "Statue of Unity The Iron Man Who United a Nation The world’s tallest statue rises 182 metres over the Narmada, a bronze colossus of the man who stitched a fractured land into one. Narmada district Enter →" [ref=e33] [cursor=pointer]:
+        - /url: /place/statue-of-unity
+        - generic [ref=e34]:
+          - generic [ref=e38]: Central
+          - generic [ref=e39]: Featured
+        - generic [ref=e40]:
+          - heading "Statue of Unity" [level=3] [ref=e41]
+          - paragraph [ref=e42]: The Iron Man Who United a Nation
+          - paragraph [ref=e43]: The world’s tallest statue rises 182 metres over the Narmada, a bronze colossus of the man who stitched a fractured land into one.
+          - generic [ref=e44]:
+            - generic [ref=e45]: Narmada district
+            - generic [ref=e46]: Enter →
+      - link "Great Rann of Kutch Where Earth Meets Sky A horizon-to-horizon sheet of white salt that floods, dries, and turns to a moonlit stage for one of the world’s great festivals. Kutch district Enter →" [ref=e48] [cursor=pointer]:
+        - /url: /place/rann-of-kutch
+        - generic [ref=e49]:
+          - generic [ref=e53]: Kutch
+          - generic [ref=e54]: Featured
+        - generic [ref=e55]:
+          - heading "Great Rann of Kutch" [level=3] [ref=e56]
+          - paragraph [ref=e57]: Where Earth Meets Sky
+          - paragraph [ref=e58]: A horizon-to-horizon sheet of white salt that floods, dries, and turns to a moonlit stage for one of the world’s great festivals.
+          - generic [ref=e59]:
+            - generic [ref=e60]: Kutch district
+            - generic [ref=e61]: Enter →
+      - link "Rani ki Vav The Queen’s Inverted Temple A UNESCO stepwell that plunges seven storeys into the earth, every wall an army of gods and apsaras guarding still water. Patan district Enter →" [ref=e63] [cursor=pointer]:
+        - /url: /place/rani-ki-vav
+        - generic [ref=e64]:
+          - generic [ref=e68]: North
+          - generic [ref=e69]: Featured
+        - generic [ref=e70]:
+          - heading "Rani ki Vav" [level=3] [ref=e71]
+          - paragraph [ref=e72]: The Queen’s Inverted Temple
+          - paragraph [ref=e73]: A UNESCO stepwell that plunges seven storeys into the earth, every wall an army of gods and apsaras guarding still water.
+          - generic [ref=e74]:
+            - generic [ref=e75]: Patan district
+            - generic [ref=e76]: Enter →
+      - link "Modhera Sun Temple Where Mathematics Meets Divinity A Solanki masterpiece built so precisely that on the equinox the rising sun pours straight into the sanctum. Mehsana district Enter →" [ref=e78] [cursor=pointer]:
+        - /url: /place/modhera-sun-temple
+        - generic [ref=e79]:
+          - generic [ref=e83]: North
+          - generic [ref=e84]: Featured
+        - generic [ref=e85]:
+          - heading "Modhera Sun Temple" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Where Mathematics Meets Divinity
+          - paragraph [ref=e88]: A Solanki masterpiece built so precisely that on the equinox the rising sun pours straight into the sanctum.
+          - generic [ref=e89]:
+            - generic [ref=e90]: Mehsana district
+            - generic [ref=e91]: Enter →
+      - link "Somnath Temple The Eternal Jyotirlinga The first of the twelve Jyotirlingas — destroyed and rebuilt again and again on the shore of the Arabian Sea, a temple that refuses to stay fallen. Gir Somnath district Enter →" [ref=e93] [cursor=pointer]:
+        - /url: /place/somnath-temple
+        - generic [ref=e98]: Saurashtra
+        - generic [ref=e99]:
+          - heading "Somnath Temple" [level=3] [ref=e100]
+          - paragraph [ref=e101]: The Eternal Jyotirlinga
+          - paragraph [ref=e102]: The first of the twelve Jyotirlingas — destroyed and rebuilt again and again on the shore of the Arabian Sea, a temple that refuses to stay fallen.
+          - generic [ref=e103]:
+            - generic [ref=e104]: Gir Somnath district
+            - generic [ref=e105]: Enter →
+      - link "Dwarkadhish Temple Krishna’s Golden City The legendary capital of Lord Krishna, a five-storey temple whose great flag is changed five times a day above the meeting of river and sea. Devbhoomi Dwarka district Enter →" [ref=e107] [cursor=pointer]:
+        - /url: /place/dwarkadhish-temple
+        - generic [ref=e112]: Saurashtra
+        - generic [ref=e113]:
+          - heading "Dwarkadhish Temple" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Krishna’s Golden City
+          - paragraph [ref=e116]: The legendary capital of Lord Krishna, a five-storey temple whose great flag is changed five times a day above the meeting of river and sea.
+          - generic [ref=e117]:
+            - generic [ref=e118]: Devbhoomi Dwarka district
+            - generic [ref=e119]: Enter →
+      - link "Dholavira The Lost Maritime Metropolis A 5,000-year-old Harappan city in the salt desert — master-planned in three tiers, fed by an astonishing network of reservoirs. Kutch district Enter →" [ref=e121] [cursor=pointer]:
+        - /url: /place/dholavira
+        - generic [ref=e126]: Kutch
+        - generic [ref=e127]:
+          - heading "Dholavira" [level=3] [ref=e128]
+          - paragraph [ref=e129]: The Lost Maritime Metropolis
+          - paragraph [ref=e130]: A 5,000-year-old Harappan city in the salt desert — master-planned in three tiers, fed by an astonishing network of reservoirs.
+          - generic [ref=e131]:
+            - generic [ref=e132]: Kutch district
+            - generic [ref=e133]: Enter →
+      - link "Mani Mandir The Temple Born of Love A jewel-box temple-palace raised by a king of Morbi in memory of his beloved — devotion to the divine and to a woman, carved into the same stone. Morbi district Enter →" [ref=e135] [cursor=pointer]:
+        - /url: /place/mani-mandir
+        - generic [ref=e140]: Saurashtra
+        - generic [ref=e141]:
+          - heading "Mani Mandir" [level=3] [ref=e142]
+          - paragraph [ref=e143]: The Temple Born of Love
+          - paragraph [ref=e144]: A jewel-box temple-palace raised by a king of Morbi in memory of his beloved — devotion to the divine and to a woman, carved into the same stone.
+          - generic [ref=e145]:
+            - generic [ref=e146]: Morbi district
+            - generic [ref=e147]: Enter →
+      - link "Girnar Hill The Sacred Mountain Ten thousand steps climbing a mountain older than the Himalayas, past Jain and Hindu temples to the peaks where pilgrims meet the sky. Junagadh district Enter →" [ref=e149] [cursor=pointer]:
+        - /url: /place/girnar-hill
+        - generic [ref=e154]: Saurashtra
+        - generic [ref=e155]:
+          - heading "Girnar Hill" [level=3] [ref=e156]
+          - paragraph [ref=e157]: The Sacred Mountain
+          - paragraph [ref=e158]: Ten thousand steps climbing a mountain older than the Himalayas, past Jain and Hindu temples to the peaks where pilgrims meet the sky.
+          - generic [ref=e159]:
+            - generic [ref=e160]: Junagadh district
+            - generic [ref=e161]: Enter →
+  - generic [ref=e162]:
+    - paragraph [ref=e163]: Gujarat Fable
+    - paragraph [ref=e164]:
+      - text: A stylized, respectful tribute to Gujarat's heritage ·
+      - link "About this project" [ref=e165] [cursor=pointer]:
+        - /url: /about

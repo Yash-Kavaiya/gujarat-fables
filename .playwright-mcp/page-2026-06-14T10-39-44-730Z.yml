@@ -1,0 +1,54 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - link "Gujarat Fable — home" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e6]: ગ
+      - generic [ref=e7]: Gujarat Fable
+    - navigation [ref=e8]:
+      - link "← All places" [ref=e9] [cursor=pointer]:
+        - /url: /
+      - 'button "Render quality: High. Click to change." [ref=e10] [cursor=pointer]': "Quality: High"
+  - generic [ref=e15]:
+    - paragraph [ref=e16]: The white desert
+    - button "🌙 Silent desert" [ref=e17] [cursor=pointer]
+  - complementary "The fable of Great Rann of Kutch" [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]: Kutch · Kutch
+        - heading "Great Rann of Kutch" [level=1] [ref=e22]
+        - paragraph [ref=e23]: Where Earth Meets Sky
+      - button "Collapse the fable panel" [ref=e24] [cursor=pointer]: Hide ✕
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: "✨ Toggle: silent white desert ⇄ Rann Utsav festival"
+        - generic [ref=e28]: "Modelling: Low"
+      - button "Narrate the fable" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: ▶
+        - text: Narrate the fable
+      - generic [ref=e31]:
+        - paragraph [ref=e32]: Once a year the sea remembers this place. The monsoon pushes inland across the marsh, and for a season the Rann becomes a shallow mirror of the sky. Then the water withdraws, the sun does its slow work, and what is left behind is salt — a white so total it erases the line between the ground and the heavens.
+        - paragraph [ref=e33]: The people of Kutch have always read this emptiness as a kind of writing. The Agariyas, the salt-makers, walk out into the glare each winter and rake the crystallised earth into low ridges, harvesting the desert as others harvest a field. The Maldhari herders cross it with their camels, navigating by stars because there is nothing else to steer by. To the unprepared traveller it offers mirages; to those who belong here, it offers a horizon you can walk into.
+        - paragraph [ref=e34]: When the full moon rises over the dry Rann, the salt catches the light and the whole plain begins to glow from beneath your feet, as if the ground had swallowed a second sky. It was this magic that gave birth to the Rann Utsav — a city of embroidered tents that blooms each winter, alive with the bhungas’ mirror-work, the drums of folk dancers, and the long shadows of camel caravans crossing an impossible white.
+        - paragraph [ref=e35]: "There is an old feeling out here, older than any festival: the sense of standing at the very edge of the world, where the map simply stops and gives way to light. The Rann does not overwhelm you with detail. It overwhelms you with the absence of it — a vast, patient blankness that makes every tent, every lamp, every human voice feel precious and small."
+        - paragraph [ref=e36]: "This is the fable of the white desert: that emptiness is not nothing. It is a canvas the people of Kutch have learned to fill — with salt and song, with mirrors and moonlight — proving that even where the earth turns blank, life insists on colouring it in."
+      - generic [ref=e37]:
+        - heading "Key facts" [level=2] [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - term [ref=e41]: Type
+            - definition [ref=e42]: Seasonal salt marsh — among the largest on Earth
+          - generic [ref=e43]:
+            - term [ref=e44]: Area
+            - definition [ref=e45]: ~7,500 km² of the Great Rann
+          - generic [ref=e46]:
+            - term [ref=e47]: Best season
+            - definition [ref=e48]: November–February (Rann Utsav)
+          - generic [ref=e49]:
+            - term [ref=e50]: People
+            - definition [ref=e51]: Agariya salt-workers, Maldhari herders
+          - generic [ref=e52]:
+            - term [ref=e53]: Phenomenon
+            - definition [ref=e54]: Full-moon nights, the salt seems to glow
+          - generic [ref=e55]:
+            - term [ref=e56]: Wildlife
+            - definition [ref=e57]: Wild ass sanctuary, flamingos in the Little Rann

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3e6cc"/>
+      <stop offset="1" stop-color="#d97a4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="#1a1208"/>
+  <circle cx="32" cy="26" r="11" fill="url(#sky)"/>
+  <!-- stylized shikhara / temple silhouette -->
+  <path d="M22 48 L32 18 L42 48 Z" fill="#e8b34a"/>
+  <rect x="20" y="48" width="24" height="6" rx="1.5" fill="#c25b30"/>
+</svg>

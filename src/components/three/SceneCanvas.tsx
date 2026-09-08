@@ -27,6 +27,8 @@ interface SceneCanvasProps {
   controls?: ControlsConfig | false;
   /** Extra bloom for night/festival scenes */
   bloomIntensity?: number;
+  /** Override the default GradientSky with a custom sky component */
+  sky?: ReactNode;
   children: ReactNode;
 }
 
@@ -41,6 +43,7 @@ export default function SceneCanvas({
   fog = [12, 120],
   controls = {},
   bloomIntensity,
+  sky,
   children,
 }: SceneCanvasProps) {
   const { dpr, shadows } = useQualitySettings();
@@ -51,7 +54,7 @@ export default function SceneCanvas({
       shadows={shadows}
       dpr={dpr}
       camera={{ position: cameraPosition, fov, near: 0.1, far: 600 }}
-      gl={{ antialias: true, powerPreference: 'high-performance' }}
+      gl={{ antialias: true, powerPreference: 'high-performance', preserveDrawingBuffer: true }}
       style={{ position: 'absolute', inset: 0 }}
     >
       <color attach="background" args={[palette.fog]} />
@@ -61,7 +64,7 @@ export default function SceneCanvas({
       <ambientLight intensity={0.55} color={horizon} />
       <hemisphereLight args={[palette.sky, palette.ground, 0.6]} />
 
-      <GradientSky top={palette.sky} bottom={horizon} />
+      {sky ?? <GradientSky top={palette.sky} bottom={horizon} />}
 
       <Suspense fallback={null}>{children}</Suspense>
 

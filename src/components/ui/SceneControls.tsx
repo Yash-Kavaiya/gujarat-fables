@@ -51,16 +51,123 @@ export default function SceneControls({ placeId }: { placeId: string }) {
       </div>
     );
   } else if (placeId === 'rann-of-kutch') {
+    const timePresets = [
+      { id: 'day' as const, label: '☀️ Day' },
+      { id: 'sunset' as const, label: '🌅 Sunset' },
+      { id: 'fullmoon' as const, label: '🌙 Full Moon' },
+      { id: 'festival' as const, label: '🎪 Rann Utsav' },
+    ];
+    const cameraModes = [
+      { id: 'explore' as const, label: '🚶 Desert' },
+      { id: 'watchtower' as const, label: '🦅 Machan' },
+      { id: 'festival' as const, label: '🎪 Stage' },
+      { id: 'orbit' as const, label: '🔄 Orbit' },
+    ];
+
     body = (
-      <div className={shell}>
-        <p className={title}>The white desert</p>
-        <button
-          className={`${btn} ${s.festival ? btnOn : btnOff}`}
-          onClick={s.toggleFestival}
-          aria-pressed={s.festival}
-        >
-          {s.festival ? '🎪 Rann Utsav' : '🌙 Silent desert'}
-        </button>
+      <div className={`${shell} max-w-sm space-y-3`}>
+        <div>
+          <p className={title}>Atmosphere & Lighting</p>
+          <div className="flex flex-wrap gap-1.5">
+            {timePresets.map((m) => (
+              <button
+                key={m.id}
+                className={`${btn} ${s.rannTimeOfDay === m.id ? btnOn : btnOff} px-2.5 py-1 text-xs`}
+                onClick={() => s.setRannTimeOfDay(m.id)}
+              >
+                {m.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-gold/70">
+            Camera Viewpoint
+          </p>
+          <div className="flex flex-wrap gap-1.5">
+            {cameraModes.map((cm) => (
+              <button
+                key={cm.id}
+                className={`${btn} ${s.rannCameraMode === cm.id ? btnOn : btnOff} px-2.5 py-1 text-xs`}
+                onClick={() => s.setRannCameraMode(cm.id)}
+              >
+                {cm.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {(s.rannTimeOfDay === 'day' || s.rannTimeOfDay === 'sunset') && (
+          <div className="flex items-center justify-between pt-1 border-t border-sand-500/15">
+            <span className="text-[11px] text-sand-300">Mirage heat shimmer</span>
+            <button
+              className={`${btn} ${s.rannMirage ? btnOn : btnOff} px-2.5 py-0.5 text-[11px]`}
+              onClick={s.toggleRannMirage}
+            >
+              {s.rannMirage ? 'Enabled' : 'Off'}
+            </button>
+          </div>
+        )}
+      </div>
+    );
+  } else if (placeId === 'mani-mandir') {
+    const timePresets = [
+      { id: 'day' as const, label: '☀️ Royal Day' },
+      { id: 'twilight' as const, label: '🌅 Twilight' },
+      { id: 'aarti' as const, label: '🪔 Aarti' },
+      { id: 'moonlight' as const, label: '🌙 Moonlight' },
+    ];
+    const cameraModes = [
+      { id: 'facade' as const, label: '🏰 Facade' },
+      { id: 'river' as const, label: '🌊 Machhu' },
+      { id: 'garden' as const, label: '🌺 Garden' },
+      { id: 'orbit' as const, label: '🔄 Orbit' },
+    ];
+
+    body = (
+      <div className={`${shell} max-w-sm space-y-3`}>
+        <div>
+          <p className={title}>Temple Atmosphere</p>
+          <div className="flex flex-wrap gap-1.5">
+            {timePresets.map((m) => (
+              <button
+                key={m.id}
+                className={`${btn} ${s.maniTimeOfDay === m.id ? btnOn : btnOff} px-2.5 py-1 text-xs`}
+                onClick={() => s.setManiTimeOfDay(m.id)}
+              >
+                {m.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-gold/70">
+            Camera Perspective
+          </p>
+          <div className="flex flex-wrap gap-1.5">
+            {cameraModes.map((cm) => (
+              <button
+                key={cm.id}
+                className={`${btn} ${s.maniCameraMode === cm.id ? btnOn : btnOff} px-2.5 py-1 text-xs`}
+                onClick={() => s.setManiCameraMode(cm.id)}
+              >
+                {cm.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="flex items-center justify-between pt-1 border-t border-sand-500/15">
+          <span className="text-[11px] text-sand-300">Drifting rose petals</span>
+          <button
+            className={`${btn} ${s.maniPetals ? btnOn : btnOff} px-2.5 py-0.5 text-[11px]`}
+            onClick={s.toggleManiPetals}
+          >
+            {s.maniPetals ? 'Active' : 'Off'}
+          </button>
+        </div>
       </div>
     );
   } else if (placeId === 'somnath-temple' || placeId === 'dwarkadhish-temple') {
@@ -90,29 +197,76 @@ export default function SceneControls({ placeId }: { placeId: string }) {
       </div>
     );
   } else if (placeId === 'rani-ki-vav') {
+    const timeModes = [
+      { id: 'day' as const, label: '☀️ Golden Sun' },
+      { id: 'dawn' as const, label: '🌅 Dawn Mist' },
+      { id: 'night' as const, label: '🪔 Night Aarti' },
+    ];
+    const cameraModes = [
+      { id: 'descent' as const, label: '🚶 Descent' },
+      { id: 'orbit' as const, label: '🔄 Orbit' },
+      { id: 'promenade' as const, label: '🎬 Walk' },
+    ];
+
     body = (
-      <div className={shell}>
-        <p className={title}>Descend the stepwell</p>
-        <div className="flex items-center gap-3">
-          <button
-            className={`${btn} ${btnOff}`}
-            onClick={() => s.setDescentLevel(Math.max(0, s.descentLevel - 1))}
-            disabled={s.descentLevel === 0}
-            aria-label="Ascend one level"
-          >
-            ↑ Up
-          </button>
-          <span className="min-w-[5.5rem] text-center text-sm text-sand-100">
-            Level {s.descentLevel} / {RANI_MAX_LEVEL}
-          </span>
-          <button
-            className={`${btn} ${btnOff}`}
-            onClick={() => s.setDescentLevel(Math.min(RANI_MAX_LEVEL, s.descentLevel + 1))}
-            disabled={s.descentLevel === RANI_MAX_LEVEL}
-            aria-label="Descend one level"
-          >
-            ↓ Down
-          </button>
+      <div className={`${shell} max-w-sm space-y-3`}>
+        <div>
+          <p className={title}>Descend the 7 storeys</p>
+          <div className="flex items-center gap-2">
+            <button
+              className={`${btn} ${btnOff} px-3 py-1.5 text-xs`}
+              onClick={() => s.setDescentLevel(Math.max(0, s.descentLevel - 1))}
+              disabled={s.descentLevel === 0}
+              aria-label="Ascend one level"
+            >
+              ↑ Up
+            </button>
+            <span className="min-w-[6.5rem] text-center text-xs font-semibold text-sand-100">
+              Level {s.descentLevel + 1} of {RANI_MAX_LEVEL + 1}
+            </span>
+            <button
+              className={`${btn} ${btnOff} px-3 py-1.5 text-xs`}
+              onClick={() => s.setDescentLevel(Math.min(RANI_MAX_LEVEL, s.descentLevel + 1))}
+              disabled={s.descentLevel === RANI_MAX_LEVEL}
+              aria-label="Descend one level"
+            >
+              ↓ Down
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-gold/70">
+            Atmosphere & Lighting
+          </p>
+          <div className="flex flex-wrap gap-1.5">
+            {timeModes.map((m) => (
+              <button
+                key={m.id}
+                className={`${btn} ${s.raniTimeOfDay === m.id ? btnOn : btnOff} px-2.5 py-1 text-xs`}
+                onClick={() => s.setRaniTimeOfDay(m.id)}
+              >
+                {m.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-gold/70">
+            Camera Mode
+          </p>
+          <div className="flex flex-wrap gap-1.5">
+            {cameraModes.map((cm) => (
+              <button
+                key={cm.id}
+                className={`${btn} ${s.raniCameraMode === cm.id ? btnOn : btnOff} px-2.5 py-1 text-xs`}
+                onClick={() => s.setRaniCameraMode(cm.id)}
+              >
+                {cm.label}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     );

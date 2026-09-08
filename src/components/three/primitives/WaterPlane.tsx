@@ -4,6 +4,8 @@ import { Color, DoubleSide, ShaderMaterial } from 'three';
 
 interface WaterPlaneProps {
   size?: number;
+  /** Extent along the second axis (defaults to `size` for a square). */
+  depth?: number;
   segments?: number;
   /** Deep water color */
   color?: string;
@@ -21,6 +23,7 @@ interface WaterPlaneProps {
  */
 export default function WaterPlane({
   size = 200,
+  depth,
   segments = 96,
   color = '#1c3a4a',
   highlight = '#e8b34a',
@@ -49,7 +52,7 @@ export default function WaterPlane({
 
   return (
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={position} receiveShadow>
-      <planeGeometry args={[size, size, segments, segments]} />
+      <planeGeometry args={[size, depth ?? size, segments, segments]} />
       <shaderMaterial
         ref={matRef}
         transparent={opacity < 1}
